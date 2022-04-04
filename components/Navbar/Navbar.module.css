@@ -1,0 +1,26 @@
+.nav {
+    grid-area: nav;
+    background: blueviolet;
+}
+
+a {
+    text-decoration: none;
+}
+
+.item {
+    display: block;
+    background: gainsboro;
+    margin: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s ease-in;
+}
+
+.item a.active {
+    color: red;
+}
+
+.item:hover {
+    background: antiquewhite;
+}

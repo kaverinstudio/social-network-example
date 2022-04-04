@@ -1,0 +1,32 @@
+.block_posts{
+    width: 95%;
+    margin-left: 10px;
+    border-top: 1px solid gray;
+}
+.new_post{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.area_post{
+    margin-top: 20px;
+    width: 60%;
+    height: 100px;
+    border-radius: 5px;
+    color: gray;
+    font-family: Roboto;
+    border: gray;
+    outline: none;
+}
+.send_post{
+    margin-top: auto;
+    margin-bottom: 0;
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    background: antiquewhite;
+    color: darkcyan;
+    cursor: pointer;
+    outline: none;
+}

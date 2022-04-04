@@ -1,0 +1,11 @@
+.selectedPage {
+    font-weight: bold;
+}
+.paginator span{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid dimgray;
+}
